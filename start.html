@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width,initial-scale=1.0">
+    <meta https-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name ="keyword"content="html,html website">
+    <meta name="robots"content="INDEX,FOLLOW">
+
+    <title>form</title>
+    <style>
+        body{
+            background-color:cornsilk;
+            
+        }
+        h2{
+            text-align: center;
+            font-size:xx-large;
+            color:darkblue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: capitalize;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <strong style="border:2px solid red;"></strong>
+    <h2><bold>Simple Eligiblity form </bold></h2>
+    <form action="backend.php">
+    <label for="name">Name:</label>    
+      <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="Profession">Profession:</label>  
+        <div>
+             <input type="text" name="myprofession"  id="Profession">
+            </div>
+            <br>
+            <label for="Email:">Email:</label>
+            <div>
+                 <input type="text" name="myEmail"id="Email">
+                </div>
+                <br>
+             
+                <br>
+                <div>
+                    Gender : Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Other<input type="radio" name="myGender">
+                </div>
+                <br>
+                     <div>
+                     Date:<input type="date" name="mydate">
+                     </div>
+                        <br>
+                        <label for="checkbox"></label>  
+                        <div>
+                            Are you ready to submit? <input type="checkbox" name="myeligiblity"checked id"checkbox">
+                            </div>
+                            <br>
+                            <label for="Mytext"></label>
+                            <div>
+                                Write about yourself :<br><textarea name ="Mytext" cols="100" rows="10" id="Mytext"></textarea>
+                            </div>
+                            <br>
+                            <div>
+                                <label for ="Interest">Area of Interest:</label>
+                                <select name="myinterest"id="Interest">
+                                    <option value="ML">Machine Learning</option>
+                                    <option value="web development">Web Development</option>
+                                    <option value="deep">Deep Learning</option>
+                                    <option value="iot">IOT</option>
+                                    <option value="ANDROID">Android Development</option>
+                                    <option value="analyist">Data Analyist</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <br>
+                <div>
+                    <input type="submit" value="Submit">
+                            
+                            <input type="Reset" value="Reset Now">
+                         </div>
+                            
+                        
+                    
+                
+
+    </form>
+
+</body>
+
